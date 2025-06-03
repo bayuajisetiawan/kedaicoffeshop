@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak Kami</title>
+  <link rel="stylesheet" href="stylekontak.css" />
+</head>
+<body>
+  <header>
+    <h1>Kontak Kami</h1>
+  </header>
+
+  <section class="contact-info">
+    <div class="info">
+      <h2>Hubungi Kami</h2>
+      <p>Silakan hubungi kami jika ada pertanyaan, kritik, atau saran. Kami siap melayani Anda!</p>
+      <ul>
+        <li><strong>Alamat:</strong> Jl. Kenangan No. 123, Kota Kopi</li>
+        <li><strong>Telepon:</strong> 0812-3456-7890</li>
+        <li><strong>Email:</strong> info@kedaikopi.com</li>
+        <li><strong>Instagram:</strong> <a href="https://instagram.com/kedaikopi">@kedaikopi</a></li>
+      </ul>
+    </div>
+    .whatsapp-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebc59;
+}
+
+    <div class="contact-form">
+      <h2>Kirim Pesan</h2>
+      <form action="#" method="POST">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Kirim</button>
+        <a href="https://wa.me/6281234567890" target="_blank" class="whatsapp-button">
+  Hubungi via WhatsApp
+</a>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
